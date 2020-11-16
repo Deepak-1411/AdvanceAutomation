@@ -17,7 +17,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
  * java -Dwebdriver.chrome.driver="E:\SeleniumLibs\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.104:3333/grid/register
  * copy the URL, that can be used for the automation. 
  * NOTE: Multiple node can be created.
- * Cap need to be set to use the GRID on HUB and NODE.
+ * Capabilities need to be set to use the GRID on HUB and NODE.
  * */
 //hub create 
 //node register java -Dwebdriver.chrome.driver="E:\SeleniumLibs\chromedriver.exe" -jar "E:/SeleniumLibs/selenium-server-standalone-3.141.59.jar" -role node -hub http://192.168.0.104:3333/grid/register/
