@@ -1,16 +1,20 @@
 package com.sause;
 
-import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeClass;
 
 public class Baseclass {
 	
+	WebDriver driver=null;
 	
 	
-	public static void main(String[] args){
-	String input="helloworldkmk34343mkdsmfkdmf";
 	
-	String number =input.replaceAll("[A-Za-z]", "");
-	System.out.println(number);
+    @BeforeClass
+	public void setUp(){
+		
 	}
+	
+	
+	
 
 }
