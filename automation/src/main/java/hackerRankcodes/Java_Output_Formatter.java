@@ -47,6 +47,6 @@ public class Java_Output_Formatter {
                 System.out.format("%-15s%03d%n",s1,x);
             }
             System.out.println("================================");
-
+            sc.close();
     }
 }

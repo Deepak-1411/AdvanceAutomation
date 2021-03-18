@@ -43,12 +43,13 @@ public class Java_STDIN_StdOut_2 {
         int i = scan.nextInt();
 
         double d = scan.nextDouble();
-        String str = scan.nextLine();
+       // String str = scan.nextLine();
         String s = scan.nextLine();
         scan.close();
 
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
+        scan.close();
     }
 }
